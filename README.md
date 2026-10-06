@@ -1,9 +1,30 @@
-# Felipe Cavalcanti
+# Felipe Cavalcanti | Portfólio
 
-Código-fonte do portfólio oficial de Felipe Cavalcanti.
+Código original completo do site de Felipe Cavalcanti, com as 12 imagens do portfólio.
 
-React, TypeScript, Vite e Vinext. Requisitos: Node.js >=22.13.0 e Linux para os scripts.
+## Requisitos
 
-Comandos: npm ci, npm run dev e npm run build.
+Node.js >=22.13.0. Os scripts de build e instalação usam ferramentas Linux.
 
-O envio do código ao GitHub não publica automaticamente o site.
+## Executar
+
+```sh
+npm ci
+npm run dev
+npm run build
+```
+
+## Estrutura
+
+- `app/page.tsx`: conteúdo e seções.
+- `app/globals.css`: estilos e responsividade.
+- `app/layout.tsx`: idioma e metadados.
+- `public/assets/`: obras, retrato e assinatura.
+- `package-lock.json`: dependências fixadas.
+- `.openai/hosting.json`: vínculo com a hospedagem Sites.
+
+Stack: React, TypeScript, Vite e Vinext.
+
+Este repositório preserva o projeto original, não a versão estática index.html. As 12 imagens referenciadas e as âncoras internas foram conferidas. A compilação não foi executada nesta importação.
+
+O envio ao GitHub não publica automaticamente o site e não configura GitHub Pages. A hospedagem atual continua em Sites.
